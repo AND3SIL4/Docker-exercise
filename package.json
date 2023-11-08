@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-docker",
+  "version": "1.0.0",
+  "description": "This is a simple exercise to test docker knowledge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AND3SIL4",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0"
+  }
+}
