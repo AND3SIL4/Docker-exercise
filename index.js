@@ -11,7 +11,7 @@ const ANIMAL = mongoose.model('animal', new mongoose.Schema({
 const APP = express()
 
 // Conexion con base de datos
-mongoose.connect('mongodb://pipe:password@localhost:27017/miapp?authSource=admin') // TODO: Conexion con la base de datos real
+mongoose.connect('mongodb://pipe:password@mongo:27017/miapp?authSource=admin') // TODO: Conexion con la base de datos real
 
 // Endpoaqqnido
 APP.get('/', async (req, res) => {
