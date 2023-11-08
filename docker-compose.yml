@@ -13,3 +13,9 @@ services:
     environment :
       - MONGO_INITDB_ROOT_USERNAME=pipe
       - MONGO_INITDB_ROOT_PASSWORD=password
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
+
