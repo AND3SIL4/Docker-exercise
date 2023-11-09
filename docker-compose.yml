@@ -7,7 +7,7 @@ services:
     links: 
       - mongo
   mongo:
-    image: mongo
+    image: mongo:4.4
     ports: 
       - "27017:27017" 
     environment :
